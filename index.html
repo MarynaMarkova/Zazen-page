@@ -5,37 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zazen Online</title>
+    <style>
+        body {
+            background-color: whitesmoke ;
+            display: block;
+            text-align: center;
+            }
+        
+        h1 {
+            font-size: 40px;
+        }
+
+        h2 {
+            font-weight: 200;
+            margin: 40px auto;
+        }
+
+        p {
+            font-size: large;
+            font-weight: 100;
+            margin: 40px auto;
+        }
+
+        span {
+            display: block;
+            text-align: right;
+            font-size: smaller;
+            margin-bottom: 40px;
+        }
+
+        button {
+            
+            background-color: #776A64;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            border: none;
+            border-radius: 10px;
+            color: white;
+            display: block;
+            font-size: 18px;
+            margin: 50px auto;
+            padding: 20px 20px;
+            transition: all 200ms ease-in-out;
+        }
+
+        button:hover {
+            opacity: 0.8;
+            cursor: pointer;
+                }
+
+        a {
+            color: #73AB5B;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #5f914a;
+            text-decoration: underline;
+        }
+
+        .container {      
+            box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+            background-image: radial-gradient(circle at 10% 20%, rgba(247, 244, 230, 0.932) 0%, rgba(240, 192, 89, 0.74) 90%);
+            border-radius: 20px;
+            color: rgb(49, 48, 48);
+            font-family: 'Mukta', sans-serif;
+            line-height: 1.5;
+            margin: 0 auto;
+            max-width: 600px;
+            padding: 20px 40px;
+        }
+
+        .enso {
+            border-radius: 50%;
+            margin: 40px 0 20px 0;
+            max-width: 120px;
+        }
+
+        .nun {
+            border-radius: 10px;
+            margin-bottom: 40px;
+            max-width: 95%;
+        }
+        .footer {
+            font-size: small;
+            margin-bottom:10px;
+        }
+    </style>
   </head>
   <body>
+    <div class="container">
     <img
-      src="https://www.lionsroar.com/wp-content/uploads/2018/06/enso-featured.png"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/307/original/enso-featured.jpg?1653570943"
       alt="Enso"
       class="enso"
     />
     <h1>ZAZEN</h1>
     <h2>
-      practice online with Polish-Ukrainian
-      <a href="http://www.zen-kaisen.org.ua" target="_blank" class="sangha"
-        >SANGHA
-      </a>
+      practice <a href="http://www.zen-kaisen.org.ua" target="_blank" class="sangha"
+        >online
+      </a> 
+      <br /> 
+      with Polish-Ukrainian sangha
+      
     </h2>
     <img
-      src="https://www.zen-azi.org/sites/default/files/styles/detail/public/images/pages/zazen-5.jpeg"
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/035/305/original/zazen-5.jpeg?1653570272"
       alt="Woman practicing zazen"
       class="nun"
     />
+    <hr>
     <p>
-      Zazen (literally "seated meditation") is a meditative discipline that is
+      <strong>Zazen — "seated meditation" </strong>
+      <br />
+      <br />
+      It is a meditative discipline that is
       typically the primary practice of the Zen Buddhist tradition. The meaning
       and method of zazen varies from school to school, but in general it can be
       regarded as a means of insight into the nature of existence.
     </p>
-    <span
-      >Learn more about ZAZEN on
-      <a href="https://en.wikipedia.org/wiki/Zazen">Wikipedia</a>
+    <span> 
+        <em>Learn more about ZAZEN on
+            <a href="https://en.wikipedia.org/wiki/Zazen" target="_blank">Wikipedia</a>
+        </em>
     </span>
-    <button>Join ZAZEN online</button>
-    <p class="footer">This page is made by 
-    <a href="https://www.linkedin.com/in/maryna-markova" >Maryna Markova</p>
+    <hr>
+    <button>Join <br />ZAZEN online</button>
+    <p class="footer">Coded by 
+    <a href="https://www.linkedin.com/in/maryna-markova" target="_blank" >Maryna Markova</p>
+    </div>
   </body>
 </html>
